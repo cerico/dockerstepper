@@ -1,0 +1,42 @@
+.outer-container {
+    text-align: center;
+    width: 100%;
+	  margin: 0 auto;
+
+    float: left;
+}
+
+.stepper-container {
+    background: white;
+    width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding: 50px;
+    display: table;
+    margin: 0 auto;
+}
+
+
+.step {
+    color: black;
+}
+
+.step-active {
+    color: blue;
+}
+
+ul {
+    list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    width: 90%;
+    overflow: hidden;
+}
+
+ul li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 2px;
+    width: 150px;
+}

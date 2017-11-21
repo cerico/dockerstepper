@@ -1,0 +1,11 @@
+version: '2.1'
+
+services:
+  web:
+    build: ./web
+    volumes:
+      - ./web:/usr/src/app
+    ports:
+      - "7600:3000"
+    command: bash -c "yarn install && yarn start"
+
